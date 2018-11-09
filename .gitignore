@@ -1,0 +1,4 @@
+cache/*.json
+.env
+.phraseapp.yml
+yarn.lock

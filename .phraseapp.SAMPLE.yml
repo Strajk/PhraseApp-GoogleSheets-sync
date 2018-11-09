@@ -1,0 +1,13 @@
+phraseapp:
+  access_token: FILL_IN
+  project_id: FILL_IN
+
+  file_format: simple_json
+
+  push:
+    sources:
+    - file: ./cache/<locale_name>.json
+
+  pull:
+    targets:
+    - file: ./cache/<locale_name>.json
